@@ -1,0 +1,18 @@
+[
+  {
+    "kind": "column",
+    "name": "Get first name",
+    "description": "Get first name from user's full name",
+    "author": "Thinh Dinh <thinh@lowcode.agency>",
+    "params": [
+      {
+        "name": "name",
+        "displayName": "Name",
+        "type": "string"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
