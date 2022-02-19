@@ -1,14 +1,19 @@
 [
   {
     "kind": "column",
-    "name": "Get first name",
-    "description": "Get first name from user's full name",
-    "author": "Thinh Dinh <thinh@lowcode.agency>",
+    "name": "Generate unique random integers",
+    "description": "",
+    "author": "Mavtipi on Medium",
     "params": [
       {
-        "name": "name",
-        "displayName": "Name",
-        "type": "string"
+        "name": "quantity",
+        "displayName": "Count of numbers to generate (default to 1)",
+        "type": "number"
+      },
+      {
+        "name": "max",
+        "displayName": "Upper bound number to generate (default to 4)",
+        "type": "number"
       }
     ],
     "result": {
