@@ -1,16 +1,10 @@
-window.function = function (name) {
+window.function = function (quantity, max) {
 
-  name = name.value ?? "";
-
-  if (name == "") {
-    return "";
+  const arr = []
+  while(arr.length < quantity){
+    var candidateInt = Math.floor(Math.random() * max) + 1
+    if(arr.indexOf(candidateInt) === -1) arr.push(candidateInt)
   }
-
-  else {
-    name = name.trim();
-    arr = name.split(" ");
-    final = arr[0];
-    return final;
-  }
+return arr.join(", ");
 
 }
