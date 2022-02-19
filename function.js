@@ -1,8 +1,8 @@
-window.function = function (quantity, max, timestamp) {
+window.function = function (quantity, max, seed) {
   
   quantity = quantity.value ?? "1";
   max = max.value ?? "1000";
-  timestamp = timestamp.value ?? "";
+  seed = seed.value ?? "";
   
   const arr = []
   while(arr.length < quantity){
