@@ -12,7 +12,7 @@
       },
       {
         "name": "max",
-        "displayName": "Upper bound number to generate (default to 4)",
+        "displayName": "Upper bound number (default to 1000)",
         "type": "number"
       }
     ],
